@@ -1,0 +1,89 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+
+.container input {
+  display: block;
+  width: 100%;
+  padding: 0.6em 0.3em;
+  border: 1px solid #d0d0d0;
+  border-radius: 0.3em;
+  color: #414a67;
+  outline: none;
+  font-weight: 400;
+  margin-bottom: 0.6em;
+}
+
+.output-container {
+  background-color: #587ef4;
+  color: #ffffff;
+  border-radius: 0.3em;
+  box-shadow: 0 0.6em 1.2em rgba(28, 0, 80, 0.06);
+  margin: 2em 0;
+  padding: 1.2em;
+}
+
+.output-container span {
+  display: block;
+  text-align: center;
+  font-weight: 400;
+  color: #e5e5e5;
+}
+
+.sublist-content {
+  width: 100%;
+  border-left: 0.3em solid #589A8D;
+  margin-bottom: 0.6em;
+  padding: 0.5em 1em;
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr 1fr;
+}
+
+.hide {
+  display: none;
+}
+
+.error {
+  color: #ff465a;
+}
+
+.edit {
+  margin-left: auto;
+}
+
+.edit,
+.delete {
+  background: transparent;
+  cursor: pointer;
+  margin-right: 1.5em;
+  border: none;
+  color: #587ef4;
+}
+
+.output-container {
+  background-color: gray;
+  color: #ffffff;
+  box-shadow: 0 0.6em 1.2em rgba(0, 0, 0, 0.1);
+}
+
+.sublist-content {
+  border-left: 0.3em solid #245a69;
+}
+
+.amount {
+  color: #414a67;
+}
+
+.error {
+  color: #ff465a;
+}
+
+.edit,
+.delete {
+  color: #245a69;
+}
+  
+.head_4{
+    color: #245a69;
+}
